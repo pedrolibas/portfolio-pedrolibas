@@ -29,7 +29,6 @@ import {
 
 export const Home = (): JSX.Element => {
   const gihubUrl = `https://github.com/${userData.githubUser}`;
-  const portfolioUrl = `https://github.com/${userData.githubUser}/my-portfolio`;
 
   return (
     <main id="home">
@@ -44,39 +43,29 @@ export const Home = (): JSX.Element => {
                 width={"48px"}
                 height={"48px"}
               />
-              <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
+              <Text color="grey4">Olá, meu nome é {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+              Apaixonado pela{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                criação
               </Text>{" "}
-              creating and{" "}
+              e{" "}
               <Text as="span" type="heading1" color="brand1">
-                developing
+                desenvolvimento
               </Text>{" "}
-              projects
+              de projetos
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+              Aproveite esse ambiente, feito especialmente para você, para
+              descobrir todos os meus projetos e tecnologias
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
-                See Projects
+                Ver projetos
               </Button>
-              <Button as="a" type="outline" target="_blank" href={portfolioUrl}>
-                See my portfolio source code
-              </Button>
-              <Button
-                color="grey5"
-                as="a"
-                css={{ "&:hover": { color: "$grey1" } }}
-                type="circle"
-                target="_blank"
-                href={gihubUrl}
-              >
-                <FaGithub />
+              <Button as="a" type="outline" target="_blank" href={gihubUrl}>
+                Ver meu GitHub
               </Button>
             </HeaderButtonsArea>
             <StackCards>
@@ -92,12 +81,12 @@ export const Home = (): JSX.Element => {
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey4">
-                My projects
+                Meus projetos
               </Text>
               <Text as="p" type="body1" color="grey2">
-                Some of my{" "}
+                Alguns dos meus{" "}
                 <Text as="span" color="brand5">
-                  side projects
+                  projetos paralelos
                 </Text>
               </Text>
             </ProjectsAreaSocialMediaMessage>
