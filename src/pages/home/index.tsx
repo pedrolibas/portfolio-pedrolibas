@@ -57,8 +57,11 @@ export const Home = (): JSX.Element => {
               de projetos
             </Text>
             <Text type="body1" color="grey2">
-              Aproveite esse ambiente, feito especialmente para você, para
-              descobrir todos os meus projetos e tecnologias
+              Entusiasta da área tecnológica desde pequeno, após ter contato com
+              a área de manutenção de hardwares decidi migrar para a área de
+              desenvolvimento, onde encontrei minha paixão pela programação,
+              suas possibilidades de atuação e como a evolução da mesma pode
+              ajudar a sociedade como um todo.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
