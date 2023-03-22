@@ -1,5 +1,6 @@
 import { createTheme, globalCss, styled } from "@stitches/react";
 import { ReactNode } from "react";
+import "./Scrollbar.css"
 
 interface GlobalStyleProps {
   children: ReactNode;
